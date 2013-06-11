@@ -3,7 +3,6 @@
  */
 package de.mpg.imeji.presentation.metadata.editors;
 
-import java.net.URI;
 import java.util.List;
 
 import de.mpg.imeji.logic.util.MetadataFactory;
@@ -103,7 +102,7 @@ public class MetadataMultipleEditor extends MetadataEditor
         if (metadataPos <= eib.getMetadata().size())
         {
             Metadata md = MetadataFactory.createMetadata(getStatement());
-            eib.getMetadata().add(metadataPos, new SuperMetadataBean(md));
+            eib.getMetadata().add(metadataPos, new SuperMetadataBean(md, getStatement()));
         }
     }
 

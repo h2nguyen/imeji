@@ -6,9 +6,9 @@ import java.util.List;
 import javax.xml.bind.JAXBException;
 
 import org.xml.sax.SAXException;
-
 import de.mpg.imeji.logic.ingest.jaxb.JaxbGenericObject;
 import de.mpg.imeji.logic.ingest.vo.MetadataProfiles;
+
 import de.mpg.imeji.logic.vo.MetadataProfile;
 
 public class ProfileParser
